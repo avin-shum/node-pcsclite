@@ -1,6 +1,6 @@
 {
-  "name": "@pokusew/pcsclite",
-  "version": "0.6.0",
+  "name": "@avin/pcsclite",
+  "version": "0.7.0",
   "description": "Bindings over PC/SC to access Smart Cards",
   "keywords": [
     "nfc",
@@ -8,13 +8,13 @@
     "pcsclite",
     "smartcards"
   ],
-  "homepage": "https://github.com/pokusew/node-pcsclite#readme",
+  "homepage": "https://github.com/avin-shum/node-pcsclite#readme",
   "bugs": {
-    "url": "https://github.com/pokusew/node-pcsclite/issues"
+    "url": "https://github.com/avin-shum/node-pcsclite/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/node-pcsclite.git"
+    "url": "https://github.com/avin-shum/node-pcsclite.git"
   },
   "license": "ISC",
   "author": {
@@ -23,6 +23,10 @@
     "url": "https://github.com/santigimeno"
   },
   "contributors": [
+    {
+      "name": "Avin Shum",
+      "url": "https://github.com/avin-shum"
+    },
     {
       "name": "Martin Endler",
       "url": "https://github.com/pokusew"
