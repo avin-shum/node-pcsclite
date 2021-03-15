@@ -1,4 +1,4 @@
-import { EventEmitter } from "events";
+import { EventEmitter } from 'events';
 
 type ConnectOptions = {
 	share_mode?: number;
@@ -94,6 +94,11 @@ interface CardReader extends EventEmitter {
 		res_len: number,
 		protocol: number,
 		cb: (err: AnyOrNothing, response: Buffer) => void
+	): void;
+
+  reconnect(
+		options: ConnectOptions,
+		callback: (err: AnyOrNothing, protocol: number) => void
 	): void;
 
 	control(
